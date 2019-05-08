@@ -1,5 +1,7 @@
 github.com/BenjaminVanIseghem/be-mobile-logging v0.0.0-20190429071137-35338072b199 h1:F6oAiCgkI6ItkhwXAHI2Ryv2GB059Bi6B5kaqyHn4Rg=
 github.com/BenjaminVanIseghem/be-mobile-logging v0.0.0-20190429071137-35338072b199/go.mod h1:6TDuVIH9W7XmZfdxPv6Wbg6QnZOKV+UwnoBdoCpjGLY=
+github.com/BenjaminVanIseghem/be-mobile-logging v0.0.0-20190508082845-db579b127d0d h1:H4hEbVPdWLKOphuD6nAeRXHzet+5sg2ttvWK5kG/7O0=
+github.com/BenjaminVanIseghem/be-mobile-logging v0.0.0-20190508082845-db579b127d0d/go.mod h1:6TDuVIH9W7XmZfdxPv6Wbg6QnZOKV+UwnoBdoCpjGLY=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
@@ -9,3 +11,5 @@ github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33 h1:I6FyU15t786LL7oL/hn43zqTuEGr4PN7F4XJ1p4E3Y8=
 golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/sys v0.0.0-20190507160741-ecd444e8653b h1:ag/x1USPSsqHud38I9BAC88qdNLDHHtQ4mlgQIZPPNA=
+golang.org/x/sys v0.0.0-20190507160741-ecd444e8653b/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

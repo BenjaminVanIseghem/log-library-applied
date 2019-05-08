@@ -1,22 +1,23 @@
 package main
 
-import ( 
+import (
 	"errors"
-	"os" 
+	"strconv"
 	"time"
 
-	"github.com/sirupsen/logrus" 
 	log "github.com/BenjaminVanIseghem/be-mobile-logging/log"
 )
+
 func main() {
-	w, err := os.Create("/promtail/logs/logfile1.log ")
-	if err != nil {
-	panic ( err ) }
-	logger := logrus.New()
-	logger.SetOutput(w)
+	counter := 1
 	for {
-		logger.Info(" Info message ")
-		logger.Warn("Warning message")
-		logger.Error("Error message", errors.New("Error")) time.Sleep(1200 ∗ time.Millisecond)
+		logFile, logger := log.CreateLogBuffer("promtail/logs/", "XML-converter", strconv.Itoa(counter))
+		for i := 1; i <= 30; i++ {
+			logger.Info("Info " + strconv.Itoa(i))
+		}
+		log.Error(logger, "Error in loop", errors.New("error"), &logFile)
+		log.Flush(logFile)
+		time.Sleep(5000 * time.Millisecond)
+		counter++
 	}
 }
